@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './CompilerIDE.css'
 
 export default class CompilerIDE extends Component {
     constructor(props) {
@@ -8,12 +9,12 @@ export default class CompilerIDE extends Component {
     render() {
         return (
             <div id="CompilerIDE">
-                <div class="title">
+                <div className="title">
                     <span>Compiler</span>
                 </div>
-                <div>
-                    <textarea placeholder="Enter your code"></textarea>
-                    <button>Lexing</button>
+                <div className="ide-container">
+                    <textarea className="ide" placeholder="Enter your code"></textarea>
+                    <button class="run-btn">Lexing</button>
                 </div>
             </div>
         );
