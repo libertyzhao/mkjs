@@ -15,6 +15,7 @@
             display: block;
             padding: 10px;
             font-size: 16px;
+            box-sizing: border-box;
         }
         .run-btn{
             margin-top: 10px;

@@ -14,7 +14,7 @@ export default class CompilerIDE extends Component {
                 </div>
                 <div className="ide-container">
                     <textarea className="ide" placeholder="Enter your code"></textarea>
-                    <button class="run-btn">Lexing</button>
+                    <button className="run-btn">Lexing</button>
                 </div>
             </div>
         );
