@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import './CompilerIDE.css'
+import './index.css'
+import CompilerEditer from './editor/CompilerEditer';
 
 export default class CompilerIDE extends Component {
     constructor(props) {
         super(props);
+
     }
 
     render() {
@@ -12,10 +14,7 @@ export default class CompilerIDE extends Component {
                 <div className="title">
                     <span>Compiler</span>
                 </div>
-                <div className="ide-container">
-                    <textarea className="ide" placeholder="Enter your code"></textarea>
-                    <button className="run-btn">Lexing</button>
-                </div>
+                <CompilerEditer />
             </div>
         );
     }

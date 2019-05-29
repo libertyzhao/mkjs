@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CompilerIDE from './pages/CompilerIDE.js';
+import CompilerIDE from './components';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<CompilerIDE />, document.getElementById('root'));
